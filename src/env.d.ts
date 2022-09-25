@@ -9,6 +9,7 @@ declare global {
       readonly DATABASE_PASSWORD: string;
       readonly DATABASE: string;
       readonly DATABASE_SYNCHRONIZE: string;
+      readonly JWT_SECRET: string;
     }
   }
 }
